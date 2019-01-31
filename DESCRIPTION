@@ -19,3 +19,5 @@ Language: en-US
 Imports: 
     magrittr,
     broom
+URL: https://github.com/GerkeLab/tricks
+BugReports: https://github.com/GerkeLab/tricks/issues
