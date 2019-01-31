@@ -1,0 +1,3 @@
+trick <- function(dat = iris) {
+
+}
