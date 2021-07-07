@@ -2,10 +2,13 @@ Package: tricks
 Title: Performs statistical tricks
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Travis",
+    c(person(given = "Travis",
            family = "Gerke",
            role = c("aut", "cre"),
-           email = "travis.gerke@moffitt.org")
+           email = "travis.gerke@moffitt.org"),
+      person("Garrick", 
+             "Aden-Buie",
+             email = "garrick.aden-buie@moffitt.org"))
 Description: What the package does (one paragraph)
 License: What license it uses
 Encoding: UTF-8
@@ -18,6 +21,8 @@ Suggests:
 Language: en-US
 Imports: 
     magrittr,
-    broom
+    broom,
+    purrr,
+    dplyr
 URL: https://github.com/GerkeLab/tricks
 BugReports: https://github.com/GerkeLab/tricks/issues
